@@ -1,13 +1,16 @@
-🧠 Image Caption Generator – Project Guide
+🧠 Image Caption Generator 
+
 📄 Project Description
 This is a deep learning-based Image Caption Generator that automatically generates natural language descriptions for uploaded images.
 It combines Computer Vision and Natural Language Processing using a CNN Encoder and LSTM Decoder trained on image-caption datasets.
+
 📁 Project Structure
 ImageCaptionGenerator/
 ├── main.py                # Streamlit web app to run the model
 ├── model.keras             # Trained caption generation model (LSTM Decoder)
 ├── feature_extractor.keras # CNN model to extract image features
 ├── tokenizer.pkl           # Tokenizer used for text preprocessing
+
 ⚙️ How It Works
 feature_extractor.keras: A CNN (e.g., InceptionV3 or ResNet50) extracts a 2048-d feature vector from the uploaded image.
 
